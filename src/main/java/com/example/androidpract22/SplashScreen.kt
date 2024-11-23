@@ -30,7 +30,7 @@ class SplashScreen : AppCompatActivity() {
         runSplashScreen()
     }
     private fun runSplashScreen() {
-        val splashScreenDuration: Long = 1700
+        val splashScreenDuration: Long = 4700
 
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this@SplashScreen,
